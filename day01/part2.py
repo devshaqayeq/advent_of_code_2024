@@ -32,7 +32,7 @@ def convert_to_numerical(line):
 
 def main():
     output = 0
-    with open('s.txt') as f:
+    with open('input.txt') as f:
         lines = f.readlines()
     for line in lines:
         tmp = convert_to_numerical(line.strip())
