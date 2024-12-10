@@ -34,5 +34,6 @@ def main():
         print(s)
         return s
 
+
 if __name__ == '__main__':
     main()
